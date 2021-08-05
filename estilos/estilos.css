@@ -1,0 +1,27 @@
+body{
+    background: white;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+table td{
+    border: 1px solid blue;
+    padding: 20px;
+
+}
+table tr:hover{
+    background: rgb(216, 216, 216);
+}
+
+/*hover significa los cambios que se hacen cuando el curso pasa por encima
+- td: columna vertical
+- tr: columna horizontal*/
+
+table td:hover{
+    background: blueviolet;
+}
+
